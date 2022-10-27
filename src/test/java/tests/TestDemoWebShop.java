@@ -3,6 +3,7 @@ package tests;
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.WebDriverRunner;
 import io.qameta.allure.Step;
+import org.junit.jupiter.api.Tag;
 import org.openqa.selenium.Cookie;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -15,6 +16,7 @@ import static helpers.CustomApiListener.withCustomTemplates;
 import static io.qameta.allure.Allure.step;
 import static io.restassured.RestAssured.given;
 
+@Tag("DemoWebShop")
 public class TestDemoWebShop extends TestBase {
 
 
